@@ -60,5 +60,9 @@ public class App {
         //         System.out.println("Enter a different month.");
         //         break;
         // }
+
+        DayOfWeek myDay = new DayOfWeek();
+        System.out.println(myDay.printDayofWk(3));
+        System.out.println(myDay.ifElseDay(3));
     }
 }
