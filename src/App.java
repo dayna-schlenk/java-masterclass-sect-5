@@ -18,26 +18,46 @@ public class App {
         //         break;
         // }
 
-        char grade = 'A';
+        // char grade = 'A';
 
-        switch (grade) {
-            case 'A':
-                System.out.println("Your grade is A");
+        // switch (grade) {
+        //     case 'A':
+        //         System.out.println("Your grade is A");
+        //         break;
+        //     case 'B':
+        //         System.out.println("Your grade is B");
+        //         break;
+        //     case 'C':
+        //         System.out.println("Your grade is C");
+        //         break;
+        //     case 'D':
+        //         System.out.println("Your grade is D");
+        //         break;
+        //     case 'E':
+        //         System.out.println("Your grade is E, somehow?");
+        //         break;
+        //     default:
+        //         System.out.println("No grade found");
+        //         break;
+        // }
+
+        String month = "January";
+
+        switch (month.toLowerCase()) {
+            case "january":
+                System.out.println("This is in the winter.");
                 break;
-            case 'B':
-                System.out.println("Your grade is B");
+            case "april":
+                System.out.println("This is in the spring.");
                 break;
-            case 'C':
-                System.out.println("Your grade is C");
+            case "june":
+                System.out.println("This is in the summer.");
                 break;
-            case 'D':
-                System.out.println("Your grade is D");
-                break;
-            case 'E':
-                System.out.println("Your grade is E, somehow?");
+            case "october":
+                System.out.println("This is in the fall.");
                 break;
             default:
-                System.out.println("No grade found");
+                System.out.println("Enter a different month.");
                 break;
         }
     }
