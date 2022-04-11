@@ -41,24 +41,24 @@ public class App {
         //         break;
         // }
 
-        String month = "January";
+        // String month = "January";
 
-        switch (month.toLowerCase()) {
-            case "january":
-                System.out.println("This is in the winter.");
-                break;
-            case "april":
-                System.out.println("This is in the spring.");
-                break;
-            case "june":
-                System.out.println("This is in the summer.");
-                break;
-            case "october":
-                System.out.println("This is in the fall.");
-                break;
-            default:
-                System.out.println("Enter a different month.");
-                break;
-        }
+        // switch (month.toLowerCase()) {
+        //     case "january":
+        //         System.out.println("This is in the winter.");
+        //         break;
+        //     case "april":
+        //         System.out.println("This is in the spring.");
+        //         break;
+        //     case "june":
+        //         System.out.println("This is in the summer.");
+        //         break;
+        //     case "october":
+        //         System.out.println("This is in the fall.");
+        //         break;
+        //     default:
+        //         System.out.println("Enter a different month.");
+        //         break;
+        // }
     }
 }
