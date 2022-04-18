@@ -61,8 +61,17 @@ public class App {
         //         break;
         // }
 
-        DayOfWeek myDay = new DayOfWeek();
-        System.out.println(myDay.printDayofWk(3));
-        System.out.println(myDay.ifElseDay(3));
+
+        // FOR LOOP PRACTICE
+        System.out.println("10,000 at 2% interest = " + calcInterest(10000.0, 2.0));
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Hello, loop " + i);
+        }
+    }
+
+    // MORE FOR LOOP PRACTICE
+    public static double calcInterest(double amount, double interestRate) {
+        return (amount * (interestRate / 100));
     }
 }
