@@ -63,11 +63,16 @@ public class App {
 
 
         // FOR LOOP PRACTICE
-        System.out.println("10,000 at 2% interest = " + calcInterest(10000.0, 2.0));
+        // System.out.println("10,000 at 2% interest = " + calcInterest(10000.0, 2.0));
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Hello, loop " + i);
+        for (int i = 2; i < 9; i++) {
+            System.out.println("10,000 at " + i + "% interest = " + String.format("%.1f", calcInterest(10000.0, i)));
         }
+
+
+        // for (int i = 0; i < 5; i++) {
+        //     System.out.println("Hello, loop " + i);
+        // }
     }
 
     // MORE FOR LOOP PRACTICE
