@@ -89,9 +89,9 @@ public class App {
         //     }
         // }
         
-        Sum3And5 myTry = new Sum3And5();
-        myTry.sum();
-        myTry.instructorSum();
+        // Sum3And5 myTry = new Sum3And5();
+        // myTry.sum();
+        // myTry.instructorSum();
     }
 
     // MORE FOR LOOP PRACTICE
