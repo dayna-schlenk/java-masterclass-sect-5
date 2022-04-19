@@ -88,8 +88,9 @@ public class App {
         //         }
         //     }
         // }
-
         
+        Sum3And5 myTry = new Sum3And5();
+        myTry.sum();
     }
 
     // MORE FOR LOOP PRACTICE
