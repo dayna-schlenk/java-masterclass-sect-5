@@ -77,17 +77,19 @@ public class App {
         //     System.out.println("Hello, loop " + i);
         // }
 
-        int count = 0;
-        for (int i = 10; i < 50; i++) {
-            if (isPrime(i)) {
-                count++;
-                System.out.println("Number " + i + " is a prime number.");
-                if (count == 3) {
-                    System.out.println("Exiting for loop.");
-                    break;
-                }
-            }
-        }
+        // int count = 0;
+        // for (int i = 10; i < 50; i++) {
+        //     if (isPrime(i)) {
+        //         count++;
+        //         System.out.println("Number " + i + " is a prime number.");
+        //         if (count == 3) {
+        //             System.out.println("Exiting for loop.");
+        //             break;
+        //         }
+        //     }
+        // }
+
+        
     }
 
     // MORE FOR LOOP PRACTICE
