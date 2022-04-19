@@ -92,6 +92,9 @@ public class App {
         // Sum3And5 myTry = new Sum3And5();
         // myTry.sum();
         // myTry.instructorSum();
+
+        SumOdd myTry = new SumOdd();
+        System.out.println(myTry.isOdd(0));
     }
 
     // MORE FOR LOOP PRACTICE
