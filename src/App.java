@@ -69,13 +69,25 @@ public class App {
         //     System.out.println("10,000 at " + i + "% interest = " + String.format("%.1f", calcInterest(10000.0, i)));
         // }
 
-        for (int i = 8; i > 1; i--) {
-            System.out.println("10,000 at " + i + "% interest = " + String.format("%.1f", calcInterest(10000.0, i)));
-        }
+        // for (int i = 8; i > 1; i--) {
+        //     System.out.println("10,000 at " + i + "% interest = " + String.format("%.1f", calcInterest(10000.0, i)));
+        // }
 
         // for (int i = 0; i < 5; i++) {
         //     System.out.println("Hello, loop " + i);
         // }
+
+        int count = 0;
+        for (int i = 10; i < 50; i++) {
+            if (isPrime(i)) {
+                count++;
+                System.out.println("Number " + i + " is a prime number.");
+                if (count == 3) {
+                    System.out.println("Exiting for loop.");
+                    break;
+                }
+            }
+        }
     }
 
     // MORE FOR LOOP PRACTICE
