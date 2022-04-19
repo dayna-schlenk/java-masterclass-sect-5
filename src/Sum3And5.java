@@ -19,5 +19,22 @@ public class Sum3And5 {
     }
 
     // INSTRUCTOR'S SOLUTION
-    
+    public void instructorSum() {
+        int instrCount = 0;
+        int instrSum = 0;
+
+        for(int i = 1; i <= 1000; i++) {
+            if ((i % 3 == 0) && (i % 5 == 0)) {
+                instrCount++;
+                instrSum += i;
+                System.out.println("Found number = " + i);
+            }
+
+            if (instrCount == 5) {
+                break;
+            }
+        }
+
+        System.out.println("Sum = " + instrSum);
+    }
 }
