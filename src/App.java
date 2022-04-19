@@ -94,7 +94,7 @@ public class App {
         // myTry.instructorSum();
 
         SumOdd myTry = new SumOdd();
-        System.out.println(myTry.isOdd(30));
+        System.out.println(myTry.sumOdd(100, 1000));
     }
 
     // MORE FOR LOOP PRACTICE
