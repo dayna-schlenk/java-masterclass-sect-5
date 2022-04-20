@@ -127,15 +127,18 @@ public class App {
 
         int number = 4;
         int lastNumber = 20;
+        int totalEvenNums = 0;
 
         while (number <= lastNumber) {
-            number++; // immediately incremented
+            number++;
+            totalEvenNums++;
 
             if (!myTry.isEvenNumber(number)) {
                 continue;
             }
 
             System.out.println("Even number " + number);
+            System.out.println("Total even number: " + totalEvenNums);
         }
     }
 
