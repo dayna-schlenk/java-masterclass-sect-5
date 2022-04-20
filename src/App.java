@@ -98,7 +98,16 @@ public class App {
 
         // WHILE LOOP PRACTICE
         int count = 1;
-        while (count != 6) {
+        // while (count != 6) {
+        //     System.out.println("Count value is " + count);
+        //     count++;
+        // }
+
+        while (true) {
+            if (count == 6) {
+                break;
+            }
+
             System.out.println("Count value is " + count);
             count++;
         }
