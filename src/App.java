@@ -123,7 +123,20 @@ public class App {
         // } while (count < 6);
 
         EvenNum myTry = new EvenNum();
-        System.out.println(myTry.isEvenNumber(21));
+        // System.out.println(myTry.isEvenNumber(21));
+
+        int number = 4;
+        int lastNumber = 20;
+
+        while (number <= lastNumber) {
+            number++; // immediately incremented
+
+            if (!myTry.isEvenNumber(number)) {
+                continue;
+            }
+
+            System.out.println("Even number " + number);
+        }
     }
 
     // MORE FOR LOOP PRACTICE
