@@ -93,8 +93,15 @@ public class App {
         // myTry.sum();
         // myTry.instructorSum();
 
-        SumOdd myTry = new SumOdd();
-        System.out.println(myTry.sumOdd(100, 1000));
+        // SumOdd myTry = new SumOdd();
+        // System.out.println(myTry.sumOdd(100, 1000));
+
+        // WHILE LOOP PRACTICE
+        int count = 1;
+        while (count != 6) {
+            System.out.println("Count value is " + count);
+            count++;
+        }
     }
 
     // MORE FOR LOOP PRACTICE
