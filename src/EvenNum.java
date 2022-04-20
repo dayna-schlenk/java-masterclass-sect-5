@@ -1,3 +1,5 @@
 public class EvenNum {
-    // code
+    public boolean isEvenNumber(int num) {
+        return (num % 2 == 0);
+    }
 }

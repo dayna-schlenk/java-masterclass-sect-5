@@ -121,6 +121,9 @@ public class App {
         //     System.out.println("Count is: " + count);
         //     count++;
         // } while (count < 6);
+
+        EvenNum myTry = new EvenNum();
+        System.out.println(myTry.isEvenNumber(21));
     }
 
     // MORE FOR LOOP PRACTICE
