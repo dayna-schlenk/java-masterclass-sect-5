@@ -96,21 +96,31 @@ public class App {
         // SumOdd myTry = new SumOdd();
         // System.out.println(myTry.sumOdd(100, 1000));
 
+
         // WHILE LOOP PRACTICE
-        int count = 1;
+        // int count = 1;
         // while (count != 6) {
         //     System.out.println("Count value is " + count);
         //     count++;
         // }
 
-        while (true) {
-            if (count == 6) {
-                break;
-            }
+        // while (true) { // Infinite loop
+        //     if (count == 6) { // Condition that stops the infinite loop
+        //         break;
+        //     }
 
-            System.out.println("Count value is " + count);
-            count++;
-        }
+        //     System.out.println("Count value is " + count);
+        //     count++;
+        // }
+
+
+        // DO WHILE LOOP PRACTICE
+        // int count = 1;
+
+        // do {
+        //     System.out.println("Count is: " + count);
+        //     count++;
+        // } while (count < 6);
     }
 
     // MORE FOR LOOP PRACTICE
