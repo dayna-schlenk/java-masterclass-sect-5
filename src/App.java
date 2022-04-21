@@ -134,12 +134,15 @@ public class App {
 
             if (!myTry.isEvenNumber(number)) {
                 continue;
-            } else {
-                totalEvenNums++;
+            }
+
+            totalEvenNums++;
+            
+            if (totalEvenNums >= 5) {
+                break;
             }
 
             System.out.println("Even number " + number);
-            // System.out.println("Total even number: " + totalEvenNums);
         }
 
         System.out.println("Total even numbers: " + totalEvenNums);
