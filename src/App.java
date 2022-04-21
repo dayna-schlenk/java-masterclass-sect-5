@@ -136,13 +136,12 @@ public class App {
                 continue;
             }
 
+            System.out.println("Even number " + number);
+
             totalEvenNums++;
-            
             if (totalEvenNums >= 5) {
                 break;
             }
-
-            System.out.println("Even number " + number);
         }
 
         System.out.println("Total even numbers: " + totalEvenNums);
