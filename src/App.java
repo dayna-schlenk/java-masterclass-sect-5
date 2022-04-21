@@ -131,15 +131,18 @@ public class App {
 
         while (number <= lastNumber) {
             number++;
-            totalEvenNums++;
 
             if (!myTry.isEvenNumber(number)) {
                 continue;
+            } else {
+                totalEvenNums++;
             }
 
             System.out.println("Even number " + number);
-            System.out.println("Total even number: " + totalEvenNums);
+            // System.out.println("Total even number: " + totalEvenNums);
         }
+
+        System.out.println("Total even numbers: " + totalEvenNums);
     }
 
     // MORE FOR LOOP PRACTICE
