@@ -122,29 +122,31 @@ public class App {
         //     count++;
         // } while (count < 6);
 
-        EvenNum myTry = new EvenNum();
+        // EvenNum myTry = new EvenNum();
         // System.out.println(myTry.isEvenNumber(21));
 
-        int number = 4;
-        int lastNumber = 20;
-        int totalEvenNums = 0;
+        // int number = 4;
+        // int lastNumber = 20;
+        // int totalEvenNums = 0;
 
-        while (number <= lastNumber) {
-            number++;
+        // while (number <= lastNumber) {
+        //     number++;
 
-            if (!myTry.isEvenNumber(number)) {
-                continue;
-            }
+        //     if (!myTry.isEvenNumber(number)) {
+        //         continue;
+        //     }
 
-            System.out.println("Even number " + number);
+        //     System.out.println("Even number " + number);
 
-            totalEvenNums++;
-            if (totalEvenNums >= 5) {
-                break;
-            }
-        }
+        //     totalEvenNums++;
+        //     if (totalEvenNums >= 5) {
+        //         break;
+        //     }
+        // }
 
-        System.out.println("Total even numbers: " + totalEvenNums);
+        // System.out.println("Total even numbers: " + totalEvenNums);
+
+        DigitSum myTry = new DigitSum();
     }
 
     // MORE FOR LOOP PRACTICE
