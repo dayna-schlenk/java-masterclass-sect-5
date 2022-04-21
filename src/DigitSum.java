@@ -1,3 +1,5 @@
 public class DigitSum {
-    // code
+    public int sumDigits(int number) {
+        // code
+    }
 }
