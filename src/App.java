@@ -147,7 +147,17 @@ public class App {
         // System.out.println("Total even numbers: " + totalEvenNums);
 
         DigitSum myTry = new DigitSum();
+
+        int testNum = 123;
+        System.out.println("Original test num: " + testNum);
+        int LSD = testNum % 10;
+        System.out.println("LSD num " + LSD);
+        testNum = testNum / 10;
+        System.out.println("Discarded: " + testNum);
     }
+
+
+
 
     // MORE FOR LOOP PRACTICE
     public static double calcInterest(double amount, double interestRate) {
