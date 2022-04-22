@@ -1,6 +1,7 @@
 // Loop through all digits in the number & add together
 
 public class DigitSum {
+    // MY SOLUTION
     public int sumDigits(int number) {
         if (number >= 10) {
             int remainingNum = number;
@@ -18,6 +19,8 @@ public class DigitSum {
 
         return -1;
     }
+
+    // INSTRUCTOR'S SOLUTION
 }
 
 // Least significant digit: the digit with the lowest exponent value, located in the farthest right position
