@@ -1,3 +1,5 @@
+// Loop through all digits in the number & add together
+
 public class DigitSum {
     public int sumDigits(int number) {
         if (number >= 10) {
