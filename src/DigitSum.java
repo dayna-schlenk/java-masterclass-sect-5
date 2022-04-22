@@ -24,3 +24,29 @@ public class DigitSum {
 }
 
 // Least significant digit: the digit with the lowest exponent value, located in the farthest right position
+
+// HOW I GOT TO ABOVE SOLUTION:
+// int solution = 0;
+
+// int testNum = 123;
+// System.out.println("Original test num: " + testNum);
+
+// int LSD = testNum % 10;
+// System.out.println("LSD num " + LSD);
+// solution += LSD;
+
+// testNum = testNum / 10;
+// System.out.println("Discarded: " + testNum);
+
+// LSD = testNum % 10;
+// System.out.println("Updated LSD: " + LSD);
+// solution += LSD;
+
+// testNum = testNum / 10;
+// System.out.println("Updated discarded: " + testNum);
+
+// LSD = testNum % 10;
+// System.out.println("Updated LSD: " + LSD);
+// solution += LSD;
+
+// System.out.println("Solution: " + solution);
