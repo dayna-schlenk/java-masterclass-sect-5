@@ -3,7 +3,17 @@
 public class DigitSum {
     public int sumDigits(int number) {
         if (number >= 10) {
-            // return sum of all digits
+            int remainingNum = number;
+            int LSD = 0;
+            int solution = 0;
+
+            while (remainingNum != 0) {
+                LSD = remainingNum % 10;
+                solution += LSD;
+                remainingNum /= 10;
+            }
+
+            return solution;
         }
 
         return -1;

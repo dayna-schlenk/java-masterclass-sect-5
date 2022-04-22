@@ -147,31 +147,32 @@ public class App {
         // System.out.println("Total even numbers: " + totalEvenNums);
 
         DigitSum myTry = new DigitSum();
+        System.out.println(myTry.sumDigits(333));
 
-        int solution = 0;
+        // int solution = 0;
 
-        int testNum = 123;
-        System.out.println("Original test num: " + testNum);
+        // int testNum = 123;
+        // System.out.println("Original test num: " + testNum);
 
-        int LSD = testNum % 10;
-        System.out.println("LSD num " + LSD);
-        solution += LSD;
+        // int LSD = testNum % 10;
+        // System.out.println("LSD num " + LSD);
+        // solution += LSD;
 
-        testNum = testNum / 10;
-        System.out.println("Discarded: " + testNum);
+        // testNum = testNum / 10;
+        // System.out.println("Discarded: " + testNum);
 
-        LSD = testNum % 10;
-        System.out.println("Updated LSD: " + LSD);
-        solution += LSD;
+        // LSD = testNum % 10;
+        // System.out.println("Updated LSD: " + LSD);
+        // solution += LSD;
         
-        testNum = testNum / 10;
-        System.out.println("Updated discarded: " + testNum);
+        // testNum = testNum / 10;
+        // System.out.println("Updated discarded: " + testNum);
 
-        LSD = testNum % 10;
-        System.out.println("Updated LSD: " + LSD);
-        solution += LSD;
+        // LSD = testNum % 10;
+        // System.out.println("Updated LSD: " + LSD);
+        // solution += LSD;
 
-        System.out.println("Solution: " + solution);
+        // System.out.println("Solution: " + solution);
     }
 
 
