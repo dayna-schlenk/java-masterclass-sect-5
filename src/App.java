@@ -147,7 +147,7 @@ public class App {
         // System.out.println("Total even numbers: " + totalEvenNums);
 
         DigitSum myTry = new DigitSum();
-        System.out.println(myTry.sumDigits(333));
+        System.out.println(myTry.instructorSumDigits(333));
     }
 
 

@@ -5,7 +5,7 @@ public class DigitSum {
     public int sumDigits(int number) {
         if (number >= 10) {
             int remainingNum = number;
-            int LSD = 0;
+            int LSD = 0; // Least Significant Digit
             int solution = 0;
 
             while (remainingNum != 0) {
@@ -21,6 +21,21 @@ public class DigitSum {
     }
 
     // INSTRUCTOR'S SOLUTION
+    public int instructorSumDigits(int number) {
+        if (number < 10) {
+            return -1;
+        }
+
+        int sum = 0;
+
+        while (number > 0) {
+            int digit = number % 10;
+            sum += digit;
+            number /= 10;
+        }
+
+        return sum;
+    }
 }
 
 // Least significant digit: the digit with the lowest exponent value, located in the farthest right position
