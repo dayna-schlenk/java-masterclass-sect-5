@@ -6,9 +6,7 @@ public class NumPalindrome {
         while (number != 0) {
             // get last digit from number
             int lastDigit = number % 10;
-            reverse++;
-            reverse *= 10;
-            reverse += lastDigit;
+            reverse = reverse * 10 + lastDigit;
 
             // remove last digit from number
             number /= 10;
