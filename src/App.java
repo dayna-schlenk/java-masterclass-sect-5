@@ -148,6 +148,9 @@ public class App {
 
         // DigitSum myTry = new DigitSum();
         // System.out.println(myTry.instructorSumDigits(333));
+
+        NumPalindrome attempt = new NumPalindrome();
+        System.out.println(attempt.isPalindrome(707));
     }
 
 
