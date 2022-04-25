@@ -150,7 +150,21 @@ public class App {
         // System.out.println(myTry.instructorSumDigits(333));
 
         NumPalindrome attempt = new NumPalindrome();
-        System.out.println(attempt.isPalindrome(707));
+        // System.out.println(attempt.isPalindrome(707));
+
+        int num = 121;
+        int reversed = 0;
+
+        System.out.println("Original number: " + num);
+        while (num != 0) {
+            int remainder = num % 10;
+            reversed = reversed * 10 + remainder;
+            num /= 10;
+        }
+
+        System.out.println("Reversed number: " + reversed);
+        boolean result = (num == reversed);
+        System.out.println("Result: " + result);
     }
 
 
