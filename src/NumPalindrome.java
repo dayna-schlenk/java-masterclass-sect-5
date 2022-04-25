@@ -1,6 +1,7 @@
 public class NumPalindrome {
     public boolean isPalindrome(int number) {
         int reverse = 0;
+        int originalNum = number;
 
         // Run loop until number becomes 0
         while (number != 0) {
@@ -13,6 +14,6 @@ public class NumPalindrome {
         }
 
         // Determine if number is equal to reverse variable & return
-        return (number == reverse);
+        return (originalNum == reverse);
     }
 }

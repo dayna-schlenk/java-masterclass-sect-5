@@ -150,22 +150,22 @@ public class App {
         // System.out.println(myTry.instructorSumDigits(333));
 
         NumPalindrome attempt = new NumPalindrome();
-        // System.out.println(attempt.isPalindrome(707));
+        System.out.println(attempt.isPalindrome(708));
 
-        int num = 121;
-        int copyOfnum = num;
-        int reversed = 0;
+        // int num = 121;
+        // int copyOfnum = num;
+        // int reversed = 0;
 
-        System.out.println("Original number: " + num);
-        while (num != 0) {
-            int remainder = num % 10;
-            reversed = reversed * 10 + remainder;
-            num /= 10;
-        }
+        // System.out.println("Original number: " + num);
+        // while (num != 0) {
+        //     int remainder = num % 10;
+        //     reversed = reversed * 10 + remainder;
+        //     num /= 10;
+        // }
 
-        System.out.println("Reversed number: " + reversed);
-        boolean result = (copyOfnum == reversed);
-        System.out.println("Result: " + result);
+        // System.out.println("Reversed number: " + reversed);
+        // boolean result = (copyOfnum == reversed);
+        // System.out.println("Result: " + result);
     }
 
 
