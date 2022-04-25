@@ -150,7 +150,7 @@ public class App {
         // System.out.println(myTry.instructorSumDigits(333));
 
         NumPalindrome attempt = new NumPalindrome();
-        System.out.println(attempt.isPalindrome(708));
+        System.out.println(attempt.isPalindrome(11212));
 
         // int num = 121;
         // int copyOfnum = num;
