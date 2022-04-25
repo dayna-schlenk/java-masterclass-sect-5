@@ -153,6 +153,7 @@ public class App {
         // System.out.println(attempt.isPalindrome(707));
 
         int num = 121;
+        int copyOfnum = num;
         int reversed = 0;
 
         System.out.println("Original number: " + num);
@@ -163,7 +164,7 @@ public class App {
         }
 
         System.out.println("Reversed number: " + reversed);
-        boolean result = (num == reversed);
+        boolean result = (copyOfnum == reversed);
         System.out.println("Result: " + result);
     }
 
