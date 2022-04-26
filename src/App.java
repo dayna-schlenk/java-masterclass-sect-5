@@ -166,6 +166,9 @@ public class App {
         // System.out.println("Reversed number: " + reversed);
         // boolean result = (copyOfnum == reversed);
         // System.out.println("Result: " + result);
+
+        FirstAndLast attempt = new FirstAndLast();
+        System.out.println(attempt.sumFirstAndLastDigit(-10));
     }
 
 
