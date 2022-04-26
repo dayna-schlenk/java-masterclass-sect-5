@@ -168,7 +168,7 @@ public class App {
         // System.out.println("Result: " + result);
 
         FirstAndLast attempt = new FirstAndLast();
-        System.out.println(attempt.sumFirstAndLastDigit(-10));
+        System.out.println(attempt.studentSolution(18));
     }
 
 
