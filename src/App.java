@@ -149,8 +149,8 @@ public class App {
         // DigitSum myTry = new DigitSum();
         // System.out.println(myTry.instructorSumDigits(333));
 
-        NumPalindrome attempt = new NumPalindrome();
-        System.out.println(attempt.isPalindrome(11212));
+        // NumPalindrome attempt = new NumPalindrome();
+        // System.out.println(attempt.isPalindrome(11212));
 
         // int num = 121;
         // int copyOfnum = num;
